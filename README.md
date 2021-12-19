@@ -47,3 +47,12 @@ admin.initializeApp({
 });
 
 ```
+
+```bash
+# ssh/.config
+Host github.com
+  User datagit
+  Hostname github.com
+  PreferredAuthentications publickey
+  IdentityFile /home/user/.ssh/id_rsa_for_github.com
+```
